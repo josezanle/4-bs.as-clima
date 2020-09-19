@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mako', sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.card {
+    width: 18.5em;
+    height: 500px;
+    border-radius: 2em;
+    background: url(PrImg_3573.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 1em;
+    box-shadow: .4em .4em .4em rgba(0, 0, 0, 0.5);
+}
+
+
+/* =========================top icon 'Back' */
+
+.top {
+    flex: 7;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    margin-top: 1em;
+    /* background: pink; */
+}
+
+input {
+    width: 100%;
+    height: 10%;
+    border: none;
+    border-radius: .5em;
+    background: hsla(0, 0%, 75%, 0.377);
+    padding: .2em;
+}
+
+
+/* ========================================= */
+
+.mid {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+    padding: .5em;
+    border-radius: .5em;
+    background: hsl(0, 0%, 0%, .6);
+}
+
+.span2 {
+    margin-left: .2em;
+    text-transform: uppercase;
+}
+
+.text1 {
+    text-transform: uppercase;
+    margin-top: .7em;
+    letter-spacing: .1em;
+    font-size: .7em;
+}
+
+.text2 {
+    font-size: .7em;
+    letter-spacing: .1em;
+    margin-top: 1em;
+}
+
+
+/* =========================================== */
+
+.bottom {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-flow: row;
+}
+
+.span3 {
+    flex: 5;
+    text-align: center;
+    padding: .7em .5em;
+    border-radius: 6px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    margin-right: 5px;
+    background: black;
+}
+
+.span4 {
+    flex: 1;
+    text-align: center;
+    padding: .2em .5em;
+    border-radius: 6px;
+    border: 1px solid white;
+}
